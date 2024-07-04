@@ -1,8 +1,14 @@
 # Counter Service Data Backend Scalability
 
-## Author
+## Authors
+
+[Vicente Olmedo](https://github.com/volmedo)
 
 ## Abstract
+
+This document presents the Counter service and the current scalability issues of its data backend. The service’s database is in a delicate state and this is resulting in significant impact to customers as well as internal teams.
+
+After the issue is described, different alternative measures are shown and a potential plan to mitigate its impact is proposed.
 
 ## Introduction
 
