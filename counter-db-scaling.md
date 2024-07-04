@@ -40,6 +40,11 @@ The most pressing issue with Counter is that the service has maxed out the singl
 
 Given the impact on customers and the operational implications, measures to solve the issue, or at least mitigate its effects, need to be implemented quickly.
 
+## Out of scope
+
+- Backfill any data that may have been lost during previous incidents.
+- Make any changes to the database infrastructure itself.
+
 ## Potential solutions
 
 While the problem is of deep technical nature, it is usually worth approaching this kind of issues from a product angle. On many occasions the best solution is not a purely technical one.
