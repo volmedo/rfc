@@ -88,3 +88,17 @@ The current DB technology used by the service along with the fact that it is dep
 - ✅ Long term solution.
 
 ## Proposed path forward
+
+Taking into account the alternatives above, the proposed plan would be as follows:
+
+1. Confirm with Product which measures could make sense from a product perspective. It is unlikely discontinuing the product is a valid alternative, but their insights will be useful to decide what the next steps should be.
+
+1. In parallel, work on improving observability, as it is also essential to choose the best course of action.
+
+1. Implement data partitioning to stop adding data to the current table. This should prevent further data loss and reduce the number of pages to the data infrastructure team.
+
+1. If that is not enough, consider additional measures depending on what the metrics look like.
+
+1. Estimate the effort of implementing support for a new data backend in the service and evaluate the cost/benefit ratio.
+
+Essentially, the strategy consists in reducing the urgency of the issue and then re-evaluate the impact of the different alternatives from a longer term perspective.
